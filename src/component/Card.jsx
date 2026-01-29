@@ -6,5 +6,3 @@ export default function Card({name,children}){
         </section>
         );
 }
-
-
