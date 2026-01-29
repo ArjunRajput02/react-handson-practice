@@ -1,4 +1,3 @@
-import '../index.css'
 function Card({name,children}){
     return (
         <section className = "card">
