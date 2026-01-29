@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -9,31 +9,33 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#180d27, #0c0219);
+  background: linear-gradient(#dfdee0, #c3c3c4);
   color: #e5d9f1;
   min-height: 100vh;
 }
 
-#app {
+.card {
   margin: 2rem auto;
-  padding: 1rem;
-  max-width: 40rem;
-  text-align: center;
+  padding: 2rem;
+  max-width: 30rem;
   border-radius: 6px;
-  background: linear-gradient(#341a89, #3a1967);
+  background: linear-gradient(#254041, #203031);
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
 
-h1 {
-  letter-spacing: 0.15rem;
+.card h2 {
+  margin: 0;
   font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 2.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #e5d9f1;
 }
 
-code {
-  font-size: 1rem;
-  background-color: #2f0c51;
-  padding: 0.1rem 0.25rem;
-  border-radius: 4px;
+.card p {
+  margin: 0.5rem 0;
+}
+
+.card a {
+  color: #b3f4f6;
+  text-decoration: none;
 }
