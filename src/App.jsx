@@ -18,8 +18,8 @@ function App() {
       description = "In-depth"
       />
       <CourseGoal 
-       title = "Learn State"
-      description = "In-depth"
+       title = "Practice Working"
+      description = "Practice Working With Deep "
       />
        
       </ul>
