@@ -1,4 +1,4 @@
-export function CourseGoal({title,description}) {
+export default function CourseGoal({title,description}) {
   return (
     <li>
       <h2>{title}</h2>

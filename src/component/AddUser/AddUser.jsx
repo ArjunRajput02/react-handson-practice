@@ -1,4 +1,4 @@
-import {userData} from '../utils/constant.js'
+import { userData } from "../../utils/constant.js";
 
 export default function AddUser() {
   return (

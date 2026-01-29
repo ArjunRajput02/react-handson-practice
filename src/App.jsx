@@ -1,11 +1,19 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import ShowCard from "./component/Card/ShowCard";
+import MainGoal from "./component/MainGoal/MainGoal";
+import MainUser from "./component/AddUser/MainUser";
+import ShowCourse from "./component/course/ShowCourse";
 import AddEvent from "./component/AddEvent/AddEvent.jsx";
 
 function App() {
-  return <AddEvent />;
+  return (
+    <>
+      <MainGoal />
+      <MainUser />
+      <ShowCourse />
+      <ShowCard />
+      <AddEvent />
+    </>
+  );
 }
 
 export default App;
-
