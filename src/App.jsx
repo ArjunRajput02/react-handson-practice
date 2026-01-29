@@ -2,22 +2,31 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { CourseGoal } from "./component/CourseGoal";
+import Card from "./component/Card";
 
 function App() {
   return (
-    <div id="app" data-testid="app">
-      <h1>Time to Practice</h1>
-      <p>One course, many goals! 🎯</p>
+    <div id="app">
+      <h1>Available Experts</h1>
+      <Card name="Anthony Blake">
+        <p>
+          Blake is a professor of Computer Science at the University of
+          Illinois.
+        </p>
+        <p>
+          <a href="mailto:blake@example.com">Email Anthony</a>
+        </p>
+      </Card>
 
-      <ul>
-        {/* Rendering Props here */}
-        <CourseGoal title="Learn React" description="In-depth" />
-        <CourseGoal
-          title="Practice Working"
-          description="Practice Working With Deep "
-        />
-      </ul>
+      <Card name="Maria Miles">
+        <p>
+          Maria is a professor of Computer Science at the University of
+          Illinois.
+        </p>
+        <p>
+          <a href="mailto:blake@example.com">Email Maria</a>
+        </p>
+      </Card>
     </div>
   );
 }
