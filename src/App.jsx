@@ -6,6 +6,7 @@ import AddConfigureButton from "./component/addConfigureButton/AddConfigureButto
 import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
 import AddUseState from "./component/addUseState/AddUseState.jsx";
 import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
+import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AddConfigureButton />
       <AddUseState />
       <AddConditionalState />
+      <AddDynamicStyle />
     </>
   );
 }
