@@ -13,3 +13,5 @@ export const user = {
 export const userConfigure = {
   name: "",
 };
+
+export const DUMMY_TODOS = ["Learn React", "Practice React", "Profit!"];

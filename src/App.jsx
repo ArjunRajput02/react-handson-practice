@@ -7,6 +7,7 @@ import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
 import AddUseState from "./component/addUseState/AddUseState.jsx";
 import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
 import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
+import AddListDynamic from "./component/addListDynamic/AddListDynamic.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AddUseState />
       <AddConditionalState />
       <AddDynamicStyle />
+      <AddListDynamic />
     </>
   );
 }

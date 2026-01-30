@@ -348,3 +348,19 @@ input {
 .active {
   color: red;
 }
+
+#addlistul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#addlistli {
+  list-style: none;
+  margin-left: 15rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border: 2px solid #8567fd;
+  border-radius: 6px;
+}
