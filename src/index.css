@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap");
 
 * {
+* {
   box-sizing: border-box;
 }
 
@@ -10,15 +11,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(#dfdee0, #c3c3c4);
+  background: linear-gradient(#dfdee0, #c3c3c4);
   color: #e5d9f1;
   min-height: 100vh;
 }
 /*MainGoal.jsx*/
 #main {
   margin: 2rem auto;
-  padding: 1rem;
-  max-width: 40rem;
-  text-align: center;
+  padding: 2rem;
+  max-width: 30rem;
   border-radius: 6px;
   background: linear-gradient(#341a89, #3a1967);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
