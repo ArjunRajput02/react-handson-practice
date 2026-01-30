@@ -1,14 +1,14 @@
-import ShowCard from "./component/Card/ShowCard";
-import MainGoal from "./component/MainGoal/MainGoal";
-import MainUser from "./component/AddUser/MainUser";
-import ShowCourse from "./component/course/ShowCourse";
-import AddEvent from "./component/AddEvent/AddEvent.jsx";
-import AddConfigureButton from "./component/AddConfigureButton/AddConfigureButton.jsx";
+import ShowCard from "./component/card/ShowCard.jsx";
+import MainUser from "./component/addUser/MainUser.jsx";
+import ShowCourse from "./component/course/ShowCourse.jsx";
+import AddEvent from "./component/addEvent/AddEvent.jsx";
+import AddConfigureButton from "./component/addConfigureButton/AddConfigureButton.jsx";
+import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
 
 function App() {
   return (
     <>
-      <MainGoal />
+      <ShowGoal />
       <MainUser />
       <ShowCourse />
       <ShowCard />

@@ -10,7 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(#dfdee0, #c3c3c4);
-  background: linear-gradient(#dfdee0, #c3c3c4);
   color: #e5d9f1;
   min-height: 100vh;
 }

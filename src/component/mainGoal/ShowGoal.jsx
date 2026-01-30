@@ -1,6 +1,6 @@
-import Important from "./Important.jsx";
+import MainGoal from "./MainGoal.jsx";
 
-export default function MainGoal() {
+export default function ShowGoal() {
   return (
     <div id="main">
       <h1 id="h1">Time to Practice!</h1>
@@ -22,7 +22,7 @@ export default function MainGoal() {
         <code id="code">export function MainGoal</code>
         ).
       </p>
-      <Important />
+      <MainGoal />
     </div>
   );
 }
