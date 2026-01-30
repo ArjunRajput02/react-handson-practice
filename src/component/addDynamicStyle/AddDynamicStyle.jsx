@@ -1,5 +1,4 @@
 import React from "react";
-import './AddDynamicStyle.css' 
 
 export default function AddDynamicStyle() {
   const [isClicked, setIsClicked] = React.useState(false);
@@ -8,7 +7,7 @@ export default function AddDynamicStyle() {
     setIsClicked(true);
   }
   return (
-    <div>
+    <div id ="dynamic">
       <p className={isClicked ? "active" : undefined}>Style me!</p>
       <button onClick={handleClick}>Toggle style</button>
     </div>
