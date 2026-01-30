@@ -4,6 +4,7 @@ import ShowCourse from "./component/course/ShowCourse.jsx";
 import AddEvent from "./component/addEvent/AddEvent.jsx";
 import AddConfigureButton from "./component/addConfigureButton/AddConfigureButton.jsx";
 import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
+import AddUseState from "./component/addUseState/AddUseState.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ShowCard />
       <AddEvent />
       <AddConfigureButton />
+      <AddUseState />
     </>
   );
 }
