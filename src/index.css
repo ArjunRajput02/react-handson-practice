@@ -13,7 +13,7 @@ body {
   color: #e5d9f1;
   min-height: 100vh;
 }
-
+/*MainGoal.jsx*/
 #main {
   margin: 2rem auto;
   padding: 1rem;
@@ -23,7 +23,14 @@ body {
   background: linear-gradient(#341a89, #3a1967);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
+#code {
+  font-size: 1rem;
+  background-color: #2f0c51;
+  padding: 0.1rem 0.25rem;
+  border-radius: 4px;
+}
 
+/*MainUser.jsx*/
 #MainUser {
   margin: 2rem auto;
   padding: 1rem;
@@ -39,12 +46,6 @@ body {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
-}
-#code {
-  font-size: 1rem;
-  background-color: #2f0c51;
-  padding: 0.1rem 0.25rem;
-  border-radius: 4px;
 }
 
 #user {
@@ -91,7 +92,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
-
+/*CourseGoal.jsx*/
 #coursegoal {
   margin: 2rem auto;
   padding: 1rem;
@@ -141,7 +142,7 @@ li p {
   font-size: 0.9rem;
   color: #474034;
 }
-
+/*Card.jsx*/
 .card {
   margin: 2rem auto;
   padding: 2rem;
@@ -167,7 +168,7 @@ li p {
   color: #b3f4f6;
   text-decoration: none;
 }
-
+/*AddEvent.jsx*/
 #addevent {
   margin: 2rem auto;
   padding: 0.5rem 2rem;
@@ -227,7 +228,7 @@ input {
 #add-event-button:hover {
   background: #070608;
 }
-
+/*AddConfigure.jsx*/
 #add-configure {
   margin: 2rem auto;
   padding: 0.5rem 2rem;
