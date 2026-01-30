@@ -1,4 +1,3 @@
-import "./AddConfigureButton.css";
 export const user = {
   name: "",
 };
@@ -10,15 +9,20 @@ export default function AddConfigurationButton() {
   }
 
   return (
-    <div id="app">
-      <h1>User Login</h1>
+    <div id="add-configure">
+      <h1 id="add-configure-h1">User Login</h1>
       <p>
-        <label>Name</label>
-        <input type="text" />
+        <label id="add-configure-label">Name</label>
+        <input id="add-configure-input" type="text" />
       </p>
 
-      <p id="actions">
-        <button onClick={() => handleCreateUser("Arjun")}>Create User</button>
+      <p id="add-configure-actions ">
+        <button
+          id="add-configure-button"
+          onClick={() => handleCreateUser("Arjun")}
+        >
+          Create User
+        </button>
       </p>
     </div>
   );
