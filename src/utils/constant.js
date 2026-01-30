@@ -9,3 +9,7 @@ export const user = {
   password: "",
   loggedIn: false,
 };
+
+export const userConfigure = {
+  name: "",
+};

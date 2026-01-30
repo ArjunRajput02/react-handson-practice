@@ -1,11 +1,9 @@
-export const user = {
-  name: "",
-};
+import { userConfigure } from "../../utils/constant";
 
 export default function AddConfigurationButton() {
   function handleCreateUser(name) {
-    user.name = name;
-    alert(user.name);
+    userConfigure.name = name;
+    alert(userConfigure.name);
   }
 
   return (
