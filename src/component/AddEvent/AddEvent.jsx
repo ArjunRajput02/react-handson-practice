@@ -24,7 +24,9 @@ export default function AddEvent() {
       </p>
 
       <p id="actions">
-        <button id="add-event-button" onClick={handleClick}>Login</button>
+        <button id="add-event-button" onClick={handleClick}>
+          Login
+        </button>
       </p>
     </div>
   );

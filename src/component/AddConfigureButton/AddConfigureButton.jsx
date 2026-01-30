@@ -5,7 +5,7 @@ export const user = {
 export default function AddConfigurationButton() {
   function handleCreateUser(name) {
     user.name = name;
-    console.log(user.name);
+    alert(user.name);
   }
 
   return (
