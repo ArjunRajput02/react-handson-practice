@@ -5,6 +5,7 @@ import AddEvent from "./component/addEvent/AddEvent.jsx";
 import AddConfigureButton from "./component/addConfigureButton/AddConfigureButton.jsx";
 import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
 import AddUseState from "./component/addUseState/AddUseState.jsx";
+import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AddEvent />
       <AddConfigureButton />
       <AddUseState />
+      <AddConditionalState />
     </>
   );
 }
