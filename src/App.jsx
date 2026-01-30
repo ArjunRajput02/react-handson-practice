@@ -1,9 +1,29 @@
-import AddListDynamic from './component/AddListDynamic/AddListDynamic.jsx'
+import ShowCard from "./component/card/ShowCard.jsx";
+import MainUser from "./component/addUser/MainUser.jsx";
+import ShowCourse from "./component/course/ShowCourse.jsx";
+import AddEvent from "./component/addEvent/AddEvent.jsx";
+import AddConfigureButton from "./component/addConfigureButton/AddConfigureButton.jsx";
+import ShowGoal from "./component/mainGoal/ShowGoal.jsx";
+import AddUseState from "./component/addUseState/AddUseState.jsx";
+import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
+import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
+import AddListDynamic from "./component/addListDynamic/AddListDynamic.jsx";
 
-function App() {  
-    return (
-        <AddListDynamic />
-    );
+function App() {
+  return (
+    <>
+      <ShowGoal />
+      <MainUser />
+      <ShowCourse />
+      <ShowCard />
+      <AddEvent />
+      <AddConfigureButton />
+      <AddUseState />
+      <AddConditionalState />
+      <AddDynamicStyle />
+      <AddListDynamic />
+    </>
+  );
 }
 
 export default App;

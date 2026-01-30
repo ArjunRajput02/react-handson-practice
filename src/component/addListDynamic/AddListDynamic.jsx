@@ -1,17 +1,10 @@
 import TodoList from "./TodoList";
-import './AddListDynamic.css';
-
-export const DUMMY_TODOS = [
-    'Learn React',
-    'Practice React',
-    'Profit!'
-];
+import { DUMMY_TODOS } from "../../utils/constant";
 
 export default function AddListDynamic() {
-  
-    return (
+  return (
     <div>
-      <ul>
+      <ul id="addlistul">
         {DUMMY_TODOS.map((item) => (
           <TodoList text={item} />
         ))}
