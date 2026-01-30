@@ -296,3 +296,20 @@ input {
 #add-configure-button:hover {
   background: #6c1fd6;
 }
+
+#usestate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#usestate p {
+  align-self: center;
+  color: red;
+}
+
+#usestate button {
+  align-self: center;
+  height: 50px;
+  width: 100px;
+}
