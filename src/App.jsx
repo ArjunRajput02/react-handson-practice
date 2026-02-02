@@ -8,6 +8,9 @@ import AddUseState from "./component/addUseState/AddUseState.jsx";
 import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
 import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
 import AddListDynamic from "./component/addListDynamic/AddListDynamic.jsx";
+import SummaryText from "./component/addFragment/SummmaryText.jsx";
+import AddProps from "./component/addForwardProps/AddProps.jsx";
+import ShowButton from "./component/addFlexibleComponent/ShowButton.jsx";
 import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
       <AddConditionalState />
       <AddDynamicStyle />
       <AddListDynamic />
+      <SummaryText />
+      <AddProps />
+      <ShowButton />
       <AddFeedback />
     </>
   );
