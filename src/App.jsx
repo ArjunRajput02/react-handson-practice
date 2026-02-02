@@ -8,6 +8,7 @@ import AddUseState from "./component/addUseState/AddUseState.jsx";
 import AddConditionalState from "./component/addConditionalState/AddConditionalState.jsx";
 import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
 import AddListDynamic from "./component/addListDynamic/AddListDynamic.jsx";
+import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <AddConditionalState />
       <AddDynamicStyle />
       <AddListDynamic />
+      <AddFeedback />
     </>
   );
 }
