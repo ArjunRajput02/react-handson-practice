@@ -24,8 +24,8 @@ function App() {
       <AddConditionalState />
       <AddDynamicStyle />
       <AddListDynamic />
-      <AddProps />
       <SummaryText />
+      <AddProps />
     </>
   );
 }
