@@ -1,7 +1,6 @@
 import React from "react";
 import ShowFeedback from "./ShowFeedBack";
 
-
 export default function AddFeedback() {
   const [name, setName] = React.useState("");
   const [feedback, setFeedback] = React.useState("");
@@ -11,10 +10,6 @@ export default function AddFeedback() {
   }
   function handleChangeFeedback(event) {
     setFeedback(event.target.value);
-  }
-
-  function handleClick() {
-    setName(!name);
   }
   return (
     <>
@@ -35,7 +30,7 @@ export default function AddFeedback() {
         <ShowFeedback feedback={feedback} student={name} />
 
         <p>
-          <button onClick={handleClick}>Save</button>
+          <button>Save</button>
         </p>
       </section>
     </>
