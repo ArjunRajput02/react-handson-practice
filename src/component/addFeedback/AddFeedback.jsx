@@ -1,7 +1,7 @@
 import React from "react";
 import ShowFeedback from "./ShowFeedBack";
 
-// don't change the Component name "App"
+
 export default function AddFeedback() {
   const [name, setName] = React.useState("");
   const [feedback, setFeedback] = React.useState("");
