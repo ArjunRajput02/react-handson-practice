@@ -9,6 +9,7 @@ import AddConditionalState from "./component/addConditionalState/AddConditionalS
 import AddDynamicStyle from "./component/addDynamicStyle/AddDynamicStyle.jsx";
 import AddListDynamic from "./component/addListDynamic/AddListDynamic.jsx";
 import AddProps from "./component/addForwardProps/AddProps.jsx";
+import SummaryText from "./component/addFragment/SummmaryText.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <AddDynamicStyle />
       <AddListDynamic />
       <AddProps />
+      <SummaryText />
     </>
   );
 }

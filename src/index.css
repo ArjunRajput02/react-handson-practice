@@ -357,12 +357,31 @@ input {
 
 #addlistli {
   list-style: none;
-  margin-left: 15rem;
+  margin-left: 30rem;
   padding: 1rem;
   background-color: blue;
   color: white;
   border: 2px solid #8567fd;
   border-radius: 6px;
+}
+
+/* SummmaryText.jsx */
+
+#summary {
+  margin-left: 30rem;
+  padding: 1rem;
+  max-width: 30rem;
+  text-align: center;
+  border-radius: 6px;
+  background: linear-gradient(#341a89, #3a1967);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+#summary-h1 {
+  letter-spacing: 0.15rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
 }
 
 /* InputProps.jsx */
