@@ -1,20 +1,8 @@
-export default function Button({
-  children,
-  mode = "filled",
-  Icon,
-  className,
-  ...props
-}) {
+export default function Button({ children, mode = "filled", Icon, ...props }) {
   let cssClass = `button ${mode}-button`;
-
-  if (className) {
-    cssClass += " " + className;
-  }
-
   if (Icon) {
     cssClass += " icon-button";
   }
-
   return (
     <button className={cssClass} {...props}>
       {Icon && (
