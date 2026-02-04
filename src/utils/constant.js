@@ -15,3 +15,8 @@ export const userConfigure = {
 };
 
 export const DUMMY_TODOS = ["Learn React", "Practice React", "Profit!"];
+
+export const Data = {
+  name: "",
+  email: "",
+};

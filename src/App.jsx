@@ -15,6 +15,7 @@ import AdddynamicButton from "./component/addDynamicCss/AddDynamicButton.jsx";
 import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
 import AddButtonClass from "./component/addCssClass/AddButtonClass.jsx";
 import AddToggleButton from "./component/addTogleStyle/AddToggleButton.jsx";
+import ForwardRef from "./component/forwardRef/ForwardRef.jsx";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <AdddynamicButton />
       <AddButtonClass />
       <AddToggleButton />
+      <ForwardRef />
     </>
   );
 }
