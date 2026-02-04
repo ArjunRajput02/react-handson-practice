@@ -12,7 +12,6 @@ import SummaryText from "./component/addFragment/SummmaryText.jsx";
 import AddProps from "./component/addForwardProps/AddProps.jsx";
 import ShowButton from "./component/addFlexibleComponent/ShowButton.jsx";
 import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
-import AddButtonClass from "./component/addCssClass/AddButtonClass.jsx";
 
 function App() {
   return (
@@ -31,6 +30,7 @@ function App() {
       <AddProps />
       <ShowButton />
       <AddFeedback />
+      <AdddynamicButton />
       <AddButtonClass />
     </>
   );
