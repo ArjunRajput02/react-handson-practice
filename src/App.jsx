@@ -14,6 +14,7 @@ import ShowButton from "./component/addFlexibleComponent/ShowButton.jsx";
 import AdddynamicButton from "./component/addDynamicCss/AddDynamicButton.jsx";
 import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
 import AddButtonClass from "./component/addCssClass/AddButtonClass.jsx";
+import AddToggleButton from "./component/addTogleStyle/AddToggleButton.jsx";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <AddFeedback />
       <AdddynamicButton />
       <AddButtonClass />
+      <AddToggleButton />
     </>
   );
 }
