@@ -3,7 +3,7 @@ import React from "react";
 export default function App() {
   const [Color, setColor] = React.useState(false);
   function handelClick() {
-    if (Color === false) {
+    if (!Color) {
       setColor(true);
     } else {
       setColor(false);
