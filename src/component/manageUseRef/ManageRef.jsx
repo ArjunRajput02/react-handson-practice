@@ -2,7 +2,7 @@ import React from "react";
 import ManageWorkout from "./ManageWorkout";
 import { workouts } from "../../utils/constant";
 
-export default function ShowWorkout() {
+export default function ManageRef() {
   const [completedWorkouts, setCompletedWorkouts] = React.useState([]);
 
   function handleWorkoutComplete(workoutTitle) {
