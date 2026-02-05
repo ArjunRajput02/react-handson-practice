@@ -18,7 +18,7 @@ export default function ManageRef() {
         <h2>Choose a workout</h2>
         <ul className="workout-list">
           {workouts.map((workout) => (
-            <li key={workout.title}>
+            <li key={workout.id}>
               <ManageWorkout
                 {...workout}
                 onComplete={() => handleWorkoutComplete(workout.title)}
