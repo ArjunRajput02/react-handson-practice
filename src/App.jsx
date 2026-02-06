@@ -16,6 +16,7 @@ import AddFeedback from "./component/addFeedback/AddFeedback.jsx";
 import AddButtonClass from "./component/addCssClass/AddButtonClass.jsx";
 import AddToggleButton from "./component/addTogleStyle/AddToggleButton.jsx";
 import AddRef from "./component/addRef/AddRef.jsx";
+import CounterReducer from "./component/counter/CounterReducer.jsx";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <AddButtonClass />
       <AddToggleButton />
       <AddRef />
+      <CounterReducer />
     </>
   );
 }
