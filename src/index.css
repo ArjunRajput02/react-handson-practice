@@ -724,3 +724,50 @@ h1 {
 #pickimage:hover {
   background: #a80ad1;
 }
+#counter-reducer {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 30rem;
+  text-align: center;
+  border-radius: 6px;
+  background: linear-gradient(#341a89, #3a1967);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+#counter-reducer h1 {
+  letter-spacing: 0.15rem;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+#counter {
+  max-width: 24rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#counter button {
+  width: 7rem;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem 0;
+  background: linear-gradient(#531a89, #4c1f8c);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: #e5d9f1;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#counter button:hover {
+  background: linear-gradient(#7e1a89, #7f1f8c);
+}
+
+#state {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+}
